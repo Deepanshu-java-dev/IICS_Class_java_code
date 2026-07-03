@@ -1,0 +1,52 @@
+class Student
+{
+	int id; 
+	String name;
+	void getdata(int a , int b)
+	{
+		id=a;
+		name=b;
+	}
+	void showdata()
+	{
+		System.out.println("Student Id :" +id);
+		System.out.println("Student Name :" +name);
+	}
+}
+class Test extends Student
+{
+  int maths,english,physics,chemistry;
+	void getemarks(int x, int y, int z,int w )
+	{
+		maths=x;
+		english=y;
+		physics=z;
+		chemistry=w;	
+	}
+	void showmarks()
+	{
+		System.out.println("Maths marks :" +maths);
+		System.out.println("English marks :" +english);
+		System.out.println("Physics marks :" +physics);
+		System.out.println("Chemistry marks :" +chemistry);
+	}
+	void result()
+	{
+		int total= maths + english + physics + chemistry;
+		int avg= total/4;
+		System.out.println("Total marks:" +total);
+		System.out.println("Average marks :" +avg);
+	}
+}
+class StudentInherit
+{
+	public static void main(String args [])
+	{
+		Test ob = new Test();
+		ob.getdata(101,"Ashu");
+		ob.showdata();
+		ob.getemarks(88,77,78,80);
+		ob.showmarks();
+		ob.result();
+	}
+}

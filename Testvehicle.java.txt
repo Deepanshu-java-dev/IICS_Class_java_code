@@ -1,0 +1,36 @@
+interface Vehicle
+{
+	int speed
+	void start();
+	void stop();
+	int getSpeed();
+}
+class bike extend Vehicle
+{	
+	int speed
+ 	public void start()
+	{
+		System.out.println("Bike Started");
+		speed=10;
+	}
+	public void stop();
+	{
+	 System.out.println("Bike Stopped");
+		speed=0;
+	}
+	int getSpeed()
+	{
+		return speed;
+	}
+}
+class Testvehicle
+{
+	public static void main (String[] args)
+	{
+		Vehicle v = new bike();
+		v.start();
+		System.out.println("Bike Speed : "+v.getSpeed(00));
+		v.stop();
+		System.out.println("Bike Speed : "+v.getSpeed(50));
+	}	
+}

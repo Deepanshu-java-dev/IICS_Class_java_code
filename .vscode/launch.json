@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Loginpage",
+            "request": "launch",
+            "mainClass": "project.Loginpage",
+            "projectName": "Deepanshu_4cf41fd5"
+        },
+        {
+            "type": "java",
+            "name": "AccountTest",
+            "request": "launch",
+            "mainClass": "AccountTest",
+            "projectName": "Deepanshu_4cf41fd5"
+        },
+        {
+            "type": "java",
+            "name": "Discount",
+            "request": "launch",
+            "mainClass": "Discount",
+            "projectName": "Deepanshu_4cf41fd5"
+        },
+        {
+            "type": "java",
+            "name": "Calculate",
+            "request": "launch",
+            "mainClass": "Calculate",
+            "projectName": "Deepanshu_4cf41fd5"
+        },
+        {
+            "type": "java",
+            "name": "Awt3",
+            "request": "launch",
+            "mainClass": "Awt3",
+            "projectName": "Deepanshu_4cf41fd5"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

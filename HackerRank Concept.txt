@@ -1,0 +1,2 @@
+HackerRank Concept
+.agar koi nextint();,nextDouble();scanner ke baad loi bhi strigng value print karni ho toh phale sc.nextLine kar lena chiyekyu is aise pahle wala data clear ho jata hai.
